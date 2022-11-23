@@ -4,7 +4,7 @@ expression = ""
 window = Tk()
 window.title("Calculator")
 window.geometry("210x325")
-#window.resizable(0,0)
+window.resizable(0,0)
 
 def button_click(item):
         global expression
